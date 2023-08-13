@@ -1,0 +1,45 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 16px;
+    margin: 200px auto;
+   
+}
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+.row{
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to left, rgb(220, 229, 48), rgb(14, 186, 209));
+    box-shadow:0px 10px 10px 0px rgba(101, 84, 84, 0.5) ;
+}
+.output input{
+    width:400px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1.5em;
+    word-wrap:break-word;
+    word-break: break-all;
+}
+.bottuns{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    justify-content: center;
+}
+button{
+    font-size: 2em;
+    margin: 5px;
+    cursor: pointer;
+}
